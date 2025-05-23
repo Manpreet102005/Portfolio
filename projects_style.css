@@ -1,0 +1,40 @@
+*{
+    border:border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    background-color:#6D8A96;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    width: 100vw;
+    height: 120px;
+    position: absolute;
+    top: 0px;left: 0px;
+    z-index: 1;
+}
+.navbarbox{
+    display: flex;justify-content: center;align-items: center;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    text-transform:capitalize;    
+}
+.navbarlink{
+    text-decoration: none;
+    font-size: 21px;
+}
+.navbarlink:hover{
+    color: #FFdd00;
+}
+.navbar:target{
+    color: #FFdd00;
+}
+.amazon{
+    color: black;
+}
